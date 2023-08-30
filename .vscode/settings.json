@@ -1,0 +1,20 @@
+{
+    "[dart]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "quickfix.add.required": true,
+            "quickfix.add.required.multi": true,
+            "quickfix.create.constructorForFinalFields": true,
+        },
+        "editor.formatOnSave": true,
+    },
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }
+}
