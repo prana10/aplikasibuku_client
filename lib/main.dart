@@ -1,3 +1,5 @@
+import 'package:aplikasibuku/presentation/modules/splash/screen/splash_screen.dart';
+
 import '/path.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aplikasi Buku',
       routes: {
-        '/': (context) => const HomeScreen(),
+        '/': (context) => const SplashScreen(),
+        '/home': (context) => const HomeScreen(),
       },
     );
   }
