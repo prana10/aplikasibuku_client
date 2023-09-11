@@ -1,5 +1,3 @@
-import 'package:aplikasibuku/presentation/modules/splash/screen/splash_screen.dart';
-
 import '/path.dart';
 import 'package:flutter/material.dart';
 
