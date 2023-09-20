@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               ),
               SliverToBoxAdapter(
                 child: Text(
-                  'Popular Books',
+                  'Popular WOi',
                   style: FontFamilyConstant.primaryFont.copyWith(
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
