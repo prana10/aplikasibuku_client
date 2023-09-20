@@ -34,6 +34,10 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: BottomNavbar(
+        currentIndex: 0,
+        onTap: (index) {},
+      ),
     );
   }
 }
